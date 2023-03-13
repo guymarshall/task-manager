@@ -3,7 +3,7 @@ CREATE TABLE users (
     emailAddress TEXT NOT NULL,
     password TEXT NOT NULL,
     createdDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    isDeleted INT NOT NULL DEFAULT 0
+    isDeleted BOOLEAN NOT NULL DEFAULT FALSE
 );
 
 CREATE TABLE tasks (
