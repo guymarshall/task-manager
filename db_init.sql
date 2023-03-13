@@ -21,5 +21,6 @@ CREATE TABLE tasks (
 CREATE TABLE priorities (
     priorityID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name TEXT NOT NULL,
+    description TEXT NOT NULL,
     isDeleted BOOLEAN NOT NULL DEFAULT FALSE
 )
