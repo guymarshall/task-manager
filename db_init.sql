@@ -11,6 +11,7 @@ CREATE TABLE tasks (
     taskID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title TEXT NOT NULL,
     description TEXT,
+    priorityID INT NOT NULL,
     assignedToID INT,
     createdByID INT NOT NULL,
     createdDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
