@@ -443,6 +443,12 @@ class App extends BaseConfig
      */
     public bool $CSPEnabled = false;
 
+    /**
+     * @var string
+     */
     public string $modelsPath = '/models/';
+    /**
+     * @var string
+     */
     public string $viewsPath = '/views/';
 }
